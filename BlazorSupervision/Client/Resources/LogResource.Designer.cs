@@ -61,15 +61,6 @@ namespace BlazorSupervision.Client.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Api timeout error.
-        /// </summary>
-        public static string ApiTimeoutException {
-            get {
-                return ResourceManager.GetString("ApiTimeoutException", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Category.
         /// </summary>
         public static string Category {
@@ -102,6 +93,15 @@ namespace BlazorSupervision.Client.Resources {
         public static string Identifier {
             get {
                 return ResourceManager.GetString("Identifier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid Operation.
+        /// </summary>
+        public static string InvalidOperationException {
+            get {
+                return ResourceManager.GetString("InvalidOperationException", resourceCulture);
             }
         }
         

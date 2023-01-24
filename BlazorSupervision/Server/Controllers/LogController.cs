@@ -10,7 +10,7 @@ using System.Security.Claims;
 
 namespace BlazorSupervision.Server.Controllers
 {
-  [Route("api/[controller]")]
+  [Route("[controller]")]
   [ApiController]
   public class LogController : ControllerBase
   {

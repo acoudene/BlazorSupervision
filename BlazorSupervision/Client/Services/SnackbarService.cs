@@ -49,15 +49,18 @@ namespace BlazorSupervision.Client.Services
       Guard.IsNotNull(log);
 
       string categoryName = log.CategoryName ?? nameof(Exception);
+
+      string title = log.Message ?? categoryName;
       string innerCategoryName = log.InnerCategoryName ?? string.Empty;
 
       string id = log.Id.ToString();
 
       // Set dedicated message following to environment
       bool isDevelopment = true;
-      string message = isDevelopment
+      string message = ! isDevelopment
       ?
           $"<ul>" +
+          $"<li>{title}</li>" +
           $"<li>{_stringLocalizer[categoryName]}</li>" +
           $"<li>{_stringLocalizer["Category"]}: {categoryName}</li>" +
           $"<li>{_stringLocalizer["Identifier"]}: {id}</li>" +
@@ -65,6 +68,7 @@ namespace BlazorSupervision.Client.Services
           $"</ul>"
       :
           $"<ul>" +
+          $"<li>{title}</li>" +
           $"<li>{_stringLocalizer[categoryName]}</li>" +
           $"<li>{_stringLocalizer["Category"]}: {categoryName}</li>" +
           $"<li>{_stringLocalizer["InnerCategory"]}: {innerCategoryName}</li>" +

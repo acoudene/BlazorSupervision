@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ApiTimeoutException" xml:space="preserve">
-    <value>Api timeout error</value>
-  </data>
   <data name="Category" xml:space="preserve">
     <value>Category</value>
   </data>
@@ -131,6 +128,9 @@
   </data>
   <data name="Identifier" xml:space="preserve">
     <value>Identifier</value>
+  </data>
+  <data name="InvalidOperationException" xml:space="preserve">
+    <value>Invalid Operation</value>
   </data>
   <data name="PageInitializationException" xml:space="preserve">
     <value>Page initialization error</value>

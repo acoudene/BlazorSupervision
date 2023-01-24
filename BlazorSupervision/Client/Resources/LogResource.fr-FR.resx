@@ -117,15 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ApiLegacyException" xml:space="preserve">
-    <value>Une erreur inattendue s'est produite lors d'une requête vers les API du Legacy</value>
-  </data>
-  <data name="ApiTimeoutException" xml:space="preserve">
-    <value>Le serveur met trop de temps à répondre.</value>
-  </data>
-  <data name="CancelException" xml:space="preserve">
-    <value>Action annulée</value>
-  </data>
   <data name="Category" xml:space="preserve">
     <value>Categorie</value>
   </data>
@@ -135,20 +126,11 @@
   <data name="Contact support" xml:space="preserve">
     <value>Si le problème persiste, veuillez noter le contexte de survenue et contacter le support d'Alteva en indiquant l'identifiant d'erreur suivant : {0}</value>
   </data>
-  <data name="FilterException" xml:space="preserve">
-    <value>Une erreur inattendue s'est produite lors du chargement des données des filtres.</value>
-  </data>
-  <data name="FilterExceptionCategory" xml:space="preserve">
-    <value>Erreur filtre</value>
-  </data>
-  <data name="GenericException" xml:space="preserve">
-    <value>L'application a rencontré un problème, si le problème persiste veuillez contacter le support.</value>
-  </data>
   <data name="Identifier" xml:space="preserve">
     <value>Identifiant</value>
   </data>
-  <data name="LblError" xml:space="preserve">
-    <value>Une erreur s'est produite...</value>
+  <data name="InvalidOperationException" xml:space="preserve">
+    <value>Opération invalide</value>
   </data>
   <data name="PageInitializationException" xml:space="preserve">
     <value>Une erreur inattendue s'est produite lors de l'initialisation de la page.</value>

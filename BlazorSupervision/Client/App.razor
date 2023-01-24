@@ -1,4 +1,8 @@
-﻿<CustomErrorBoundary MaximumErrorCount="2">
+﻿<MudThemeProvider/>
+<MudDialogProvider/>
+<MudSnackbarProvider/>
+
+<CustomErrorBoundary MaximumErrorCount="2">
   <Router AppAssembly="@typeof(App).Assembly">
     <Found Context="routeData">
       <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
